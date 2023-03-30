@@ -1,0 +1,7 @@
+venv/
+.conda/
+.dvc/
+.ipynb_checkpoints/
+*.json
+*.csv
+*.pkl

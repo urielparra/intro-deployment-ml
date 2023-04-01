@@ -1,4 +1,4 @@
-name: Continuous Training
+name: Continuous Training API
 on:
   push:
     branches:

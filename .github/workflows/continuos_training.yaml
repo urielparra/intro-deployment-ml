@@ -1,8 +1,11 @@
 name: continuos_training
-on: 
+on:
+  push:
+    brancjes:
+      - workflow_continuos_training
   schedule:
     - cron: '0 */6 * * *'
-  workflow dispath:
+  workflow dispatch:
     input:
       reason:
         description: Why to run this?
